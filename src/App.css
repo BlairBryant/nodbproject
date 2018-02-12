@@ -1,9 +1,94 @@
-.App {
+.app {
   text-align: center;
 }
 
-.Header {
+.header {
   height: 10vh;
   width: 100%;
-  background: lightcyan;
+  background: #52796f;
+}
+
+.body {
+  height: 80vh;
+  width: 100%;
+  background: #cad2c5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.inputBox {
+  height: 40px;
+  width: 60%;
+  background: #354f52
+  
+}
+
+.postsBox {
+  width: 60%;
+  height: 70vh;
+  background: #8aa1b1;
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  overflow: auto;
+  flex-direction: column;
+}
+
+.post {
+  width: 80%;
+  min-height: 150px;
+  background: white;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.likesHolder {
+  height: 120px;
+  width: 100%;
+  background: lightblue;
+  display: flex;
+  align-items: flex-start;
+  padding: 50px 0px 10px 24px;
+  box-sizing: border-box;
+  flex-direction: column
+}
+
+.lnr-chevron-up {
+  color: #0F52BA;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.likesHolder p {
+  margin-left: 5.5px;
+}
+
+.lnr-chevron-down {
+  color: #0F52BA;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.commentHolder {
+  width: 100%;
+  background: lightcoral;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post h2 {
+  position: flex-end
+}
+
+.footer {
+  height: 10vh;
+  width: 100%;
+  background: #52796f;
 }
